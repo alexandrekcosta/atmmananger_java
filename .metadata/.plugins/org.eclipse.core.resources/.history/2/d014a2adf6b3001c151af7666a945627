@@ -1,0 +1,11 @@
+package classesObjects;
+
+public class account {
+	private String name;
+	private int pin;
+	private int BranchPin;
+	private float ballance;
+	
+	
+
+}

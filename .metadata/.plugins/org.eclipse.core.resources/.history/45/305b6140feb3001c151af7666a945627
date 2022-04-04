@@ -1,0 +1,67 @@
+package classes;
+
+public class Account {
+	private String name;
+	private int pin;
+	private int BranchPin;
+	private double ballance;
+	
+	
+	public Account(String name, int pin, int branchPin, double ballance) {
+		
+		this.name = name;
+		this.pin = pin;
+		BranchPin = branchPin;
+		this.ballance = ballance;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getPin() {
+		return pin;
+	}
+
+
+	public void setPin(int pin) {
+		this.pin = pin;
+	}
+
+
+	public int getBranchPin() {
+		return BranchPin;
+	}
+
+
+	public void setBranchPin(int branchPin) {
+		BranchPin = branchPin;
+	}
+
+
+	public double getBallance() {
+		return ballance;
+	}
+	
+	public void deposit(double value) {
+		
+		ballance = ballance + value;
+		
+	}
+	
+	public void withdraw(double value) {
+		
+		ballance = ballance - value;
+		
+	}
+	
+	
+
+}

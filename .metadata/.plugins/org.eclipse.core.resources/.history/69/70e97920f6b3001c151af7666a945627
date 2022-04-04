@@ -1,0 +1,7 @@
+package classesObjects;
+
+public class account {
+	private String name;
+	private float ballance;
+
+}

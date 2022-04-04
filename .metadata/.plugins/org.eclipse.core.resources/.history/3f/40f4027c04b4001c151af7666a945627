@@ -1,0 +1,17 @@
+package application;
+
+import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println(":::::::::::ACCOUNT MANANGER 2.0:::::::::::::");
+		System.out.println(" ");
+		System.out.print("Set holder's name: ");
+		String name = input.nextLine();
+	}
+
+}

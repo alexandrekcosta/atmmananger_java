@@ -1,0 +1,20 @@
+package application;
+
+import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println(":::::::::::ATM MANANGER 2.0:::::::::::::");
+		System.out.println(" ");
+		System.out.print("Set holder's name: ");
+		String name = input.nextLine();
+		System.out.println(" ");
+		System.out.print("Set PIN: ");
+		int pin = input.nextInt();
+	}
+
+}

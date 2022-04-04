@@ -1,0 +1,28 @@
+package application;
+
+import java.util.Scanner;
+
+import classes.Account;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println(":::::::::::ATM MANANGER 2.0:::::::::::::");
+		System.out.println(" ");
+		System.out.print("Set holder's name: ");
+		String name = input.nextLine();
+		System.out.println(" ");
+		System.out.print("Set PIN: ");
+		int pin = input.nextInt();
+		System.out.print("Set branch PIN: ");
+		int branchPin = input.nextInt();
+		System.out.println(" ");
+		
+		Account a1 = new Account(name, branchPin, branchPin, branchPin);
+		
+	}
+
+}
